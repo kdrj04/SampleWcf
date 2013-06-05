@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Client", "Sample.Client\Sample.Client.csproj", "{F9446287-8273-4505-9EC5-4C0D3D59FBDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Controct", "Sample.Controct\Sample.Controct.csproj", "{B39000D3-11D8-4926-8F9F-581CE1B967D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Service", "Sample.Service\Sample.Service.csproj", "{566AD8BD-C453-49B2-B3DA-0F5A97D44108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Host", "Sample.Host\Sample.Host.csproj", "{AAB88E2B-5B27-4BB6-A0ED-BDA87BA8D79D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{566AD8BD-C453-49B2-B3DA-0F5A97D44108}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{566AD8BD-C453-49B2-B3DA-0F5A97D44108}.Debug|x86.Build.0 = Debug|Any CPU
+		{566AD8BD-C453-49B2-B3DA-0F5A97D44108}.Release|x86.ActiveCfg = Release|Any CPU
+		{566AD8BD-C453-49B2-B3DA-0F5A97D44108}.Release|x86.Build.0 = Release|Any CPU
+		{AAB88E2B-5B27-4BB6-A0ED-BDA87BA8D79D}.Debug|x86.ActiveCfg = Debug|x86
+		{AAB88E2B-5B27-4BB6-A0ED-BDA87BA8D79D}.Debug|x86.Build.0 = Debug|x86
+		{AAB88E2B-5B27-4BB6-A0ED-BDA87BA8D79D}.Release|x86.ActiveCfg = Release|x86
+		{AAB88E2B-5B27-4BB6-A0ED-BDA87BA8D79D}.Release|x86.Build.0 = Release|x86
+		{B39000D3-11D8-4926-8F9F-581CE1B967D6}.Debug|x86.ActiveCfg = Debug|x86
+		{B39000D3-11D8-4926-8F9F-581CE1B967D6}.Debug|x86.Build.0 = Debug|x86
+		{B39000D3-11D8-4926-8F9F-581CE1B967D6}.Release|x86.ActiveCfg = Release|x86
+		{B39000D3-11D8-4926-8F9F-581CE1B967D6}.Release|x86.Build.0 = Release|x86
+		{F9446287-8273-4505-9EC5-4C0D3D59FBDE}.Debug|x86.ActiveCfg = Debug|x86
+		{F9446287-8273-4505-9EC5-4C0D3D59FBDE}.Debug|x86.Build.0 = Debug|x86
+		{F9446287-8273-4505-9EC5-4C0D3D59FBDE}.Release|x86.ActiveCfg = Release|x86
+		{F9446287-8273-4505-9EC5-4C0D3D59FBDE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Sample.Client\Sample.Client.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileName
+	EndGlobalSection
+EndGlobal
